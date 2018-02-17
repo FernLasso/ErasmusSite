@@ -1,0 +1,112 @@
+
+#titlebar{
+    margin-top: 30px;
+    width: 2500px;
+    height: 100px;
+    column-count: 2;
+}
+
+.title1{
+    font-family: arial 700;
+    float: left;
+    font-size: 1.5em;
+}
+
+.ErasmusLogo{
+   margin-left: 600px;
+}
+
+.navbar{
+    max-width: 960px;
+    display: grid;
+    grid-area: "left right";
+}
+
+.left{
+    grid-area: left;
+    position: absolute;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+.right{
+    grid-area: right;
+    position: absolute;
+    margin-left: 95%;
+    padding-left:5%;
+}
+.nav-item a{
+    color:black;
+    font-family: arial 700;
+    font-weight: 500;
+}
+
+.nav-item-search{
+    font-size: 1em;
+    justify-content: end;
+}
+
+
+.configuration a{
+    color: red;
+}
+
+.content{
+    position: relative;
+    width: auto;
+    color: white;
+    background-image: url("https://www.eur.nl/sites/corporate/files/styles/masthead/public/2018-01/250A0114.jpg?h=813040a3&itok=vSKbjnKt");
+
+}
+
+.blocks{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: repeat(3, 450px);
+    grid-gap: 100px;
+    margin-top: 50px;
+    grid-auto-rows: 500px;
+    justify-items: center;
+    justify-content: center;
+    align-items:stretch;
+    align-content: end;
+    grid-auto-rows:900px;
+}
+
+.property{
+    background-color:#092429;
+    width: 400px;
+}
+.programme{
+    background-color: rgba(12, 128, 102, 0.671);
+    width: 400px;
+}
+
+.erasmusName{
+    background-color: #0C8066;
+    opacity: 50%;
+    opaci: 50%;
+}
+
+.footer{
+    background-color : #0C8066;
+    width: 100%;
+    Height:75px;
+    column-count: 2;
+    padding-top: 25px;
+}
+
+.socialMediaImages{
+    padding-left: 50px;
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 5px;
+
+}
+
+.footerText a{
+    color: white;
+    margin-top: 20px;
+    padding-top:5px;
+    margin-bottom: 5px;
+}
