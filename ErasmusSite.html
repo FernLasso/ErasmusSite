@@ -5,6 +5,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet"  href="ErasmusStyle.css">
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src = "ErasmusJQuery.js"></script>
     </head>
@@ -26,50 +28,103 @@
                 </nav>
 
                 <div id="navbar">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
+                    <section class = 'left'>
+                        <div class="dropdown" id="flip">
+                            <button class="dropbtn" href="/en/education">Education
+                            </button>
+                            <div class="dropdown-content" id="panel">
+                              <a href="/en/education/bachelor-programmes">➤ Bachelor programmes</a>
+                              <a href="/en/education/master-programmes">➤ Master programmes</a>
+                              <a href="/en/education/post-experience">➤ Post-experience</a>
+                              <a href="/node/10635">➤ Exchange</a>
+                              <a href="/en/education/courses">➤ Courses</a>
+                              <a href="/en/education/moocs">➤ MOOCs</a>
+                              <a href="/en/education/minors">➤ Minors</a>
+                              <a href="/node/13495">➤ Elective courses</a>
+                              <a href="/en/education/practical-matters">➤ Practical matters</a>
+                              <a href="/en/education/alumni">➤ Alumni</a>
+                           </div>
+                          </div> 
+                          <div class="dropdown" id="flip">
+                                <button class="dropbtn" href="/en/research">Research
                                 </button>
-                            
-                                <div class="collapse navbar-collapse" >
-                                    <section class = "left">
-                                        <ul class="navbar-nav mr-auto items">
-                                        
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Education</a>
-                                                <ul>
-                                                    <li><a>> Bachelor Programmes</a></li>
-                                                    <li><a>> Master Programmes</a></li>
-                                                    <li><a>> Post Experience</a></li>
-                                                    <li><a>> Exchange</a></li>
-                                                    <li><a>> Courses</a></li>
-                                                    <li><a>> MOOCs</a></li>
-                                                    <li><a>> Minors</a></li>
-                                                    <li><a>> Elective Courses</a></li>
-                                                    <li><a>> Practical matters</a></li>
-                                                    <li><a>> Alumni</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Research</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">About EUR</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Working at Erasmus University</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Campus</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">News</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <e class="nav-link" href="#">Contact</e>
-                                            </li>
-                                        </ul>
-                                    </section>
+                                <div class="dropdown-content" id="panel">
+                                  <a href="/en/research/erasmus-initiatives">➤ Erasmus Initiatives</a>
+                                  <a href="/en/research/areas-expertise">➤ Areas of expertise</a>
+                                 <a href="/en/research/contact-experts">➤ In contact with experts</a>
+                                  <a href="/en/research/phd-programmes">➤ PhD programmes</a>
+                                  <a href="/en/research/research-schools-institutes">➤ Research schools and institutes</a>
+                                  <a href="/en/research/beadles-office-0">➤ Beadle's office</a>
+                                  <a href="/en/research/research-matters">➤ Research Matters</a>
+                                  <a href="/en/research/young-erasmus">➤ Young Erasmus</a>
+                                  <a href="/en/research/eur-fellowships">➤ EUR-Fellowships</a>
+                                  <a href="/en/research/eur-publicaties-repub">➤ EUR publicaties (RePub)</a>
+                               </div>
+                          </div> 
+                          <div class="dropdown" id="flip">
+                            <button class="dropbtn" href="/en/about-eur">About EUR
+                            </button>
+                            <div class="dropdown-content" id="panel">
+                              <a href="/en/about-eur/administration-organisation">➤ Administration and organisation</a>
+                              <a href="/en/about-eur/faculties">➤ Faculties</a>
+                             <a href="/en/about-eur/strategy">➤ Strategy</a>
+                              <a href="/en/about-eur/collaborate">➤ Collaborate</a>
+                              <a href="/en/about-eur/eur-holding">➤ EUR holding</a>
+                              <a href="/node/36356">➤ Ceremonies</a>
+                              <a href="/en/about-eur/corporate-events">➤ Corporate events</a>
+                              <a href="/en/education/study-information/erasmus-university/rankings">➤ Rankings</a>
+                              <a href="/en/about-eur/facts-and-figures">➤ Facts and Figures</a>
+                              <a href="/en/about-eur/erasmus-register-ancillary-positions">➤ Erasmus Register for Ancillary Positions</a>
+                              <a href="/en/about-eur/history">➤ History</a>
+                              <a href="/en/about-eur/corporate-publications">➤ Corporate publications</a>
+                              <a href="/node/24211">➤ Participation</a>
+                            </div>
+                        </div> 
+                           <div class="dropdown" id="flip">
+                                <button class="dropbtn" href="/en/working-erasmus-university">Working at Erasmus University
+                                </button>
+                                <div class="dropdown-content" id="panel">
+                                  <a href="/node/10930">➤ HR information</a>
+                                  <a href="/node/11074">➤ International staff at EUR</a>
+                                  <a href="/node/10872">➤ Testimonials</a>
+                                  <a href="/en/working-erasmus-university/vacancies">➤ Vacancies</a>
+                                  <a href="/en/hr-excellence-research">➤ HR Excellence in Research</a>
+                                  <a href="/en/working-erasmus-university/top-training">➤ TOP Training</a>
+                                </div>
+                            </div> 
+                        <div class="dropdown" id="flip">
+                                <button class="dropbtn" href="/en/campus">Campus
+                                </button>
+                                <div class="dropdown-content" id="panel">
+                                  <a href="/en/campus/university-library">➤ University Library</a>
+                                  <a href="/en/campus/locations-0">➤ Locations</a>
+                                  <a href="/en/campus/parking">➤ Parking</a>
+                                  <a href="/en/campus/accessibility">➤ Accessibility</a>
+                                  <a href="/en/campus/food-drinks">➤ Food and drinks</a>
+                                  <a href="/en/campus/shops-services">➤ Shops and services</a>
+                                  <a href="/en/campus/culture">➤ Culture</a>
+                                  <a href="/en/campus/sport">➤ Sport</a>
+                                  <a href="/en/campus/security-safety">➤ Security and safety</a>
+                                  <a href="/en/campus/campus-under-construction">➤ Campus under construction</a>
+                                  <a href="/en/campus/rental">➤ Rental</a>
+                                </div>
+                              </div> 
+                            <div class="dropdown" id="flip">
+                                    <button class="dropbtn" href="/en/news">News
+                                    </button>
+                                    <div class="dropdown-content" id="panel">
+                                      <a href="/node/10320">➤ Press</a>
+                                      <a href="/en/news/overview">➤ Press releases</a>
+                                      <a href="/en/events/overview">➤ Calendar</a>
+                                      <a href="/node/20208">➤ Calendar Academic ceremonies</a>
+                                    </div>
+                            </div> 
+                            <div class="dropdown" id="flip">
+                                    <button class="dropbtn" href="/en/contact">Contact
+                                    </button>
+                                  </div> 
+                            </div>
+                    </section>
                                 <div class="collapse navbar-collapse" >
                                     <section class = "right">
                                         <ul class="navbar-nav mr-auto">
