@@ -1,26 +1,10 @@
-$(document).ready(function(){
-
-    $(".fa-search").click(function(){
-        $(".container, .input").toggleClass("active");
-        $(".input").focus();
-    });
-})
 
 $(document).ready(function(){
-    $("#flip").click(function(){
-        $("#panel").slideToggle("slow");
+    $('#easteregg').hover(function(){
+       $('#content').css('background-image', 'url(http://gdurl.com/SB32)');
     });
-});
-$(document).ready(function(){
-    $("#flip").click(function(){
-        $("#panel").fadeIn("slow");
-    });
-});
+    $('#content').hover(function(){
+        $('#content').css('background-image', 'url("http://gdurl.com/Li6l")');
+     });
 
-$(document).ready(function(){
-    $("#flip").click(function(){
-        $("#panel").css("color", "red")
-            .slideUp(2000)
-            .slideDown(2000);
-    });
-});
+ });
